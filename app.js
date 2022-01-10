@@ -10,7 +10,7 @@ async function main() {
     await mongoose.connect('mongodb://localhost/Dance');
 }
 
-const port = 800;
+const port = Process.env.PORT || 800;
 //defining mongoose schema
 const DanceSchema = new mongoose.Schema({
     name: String,
