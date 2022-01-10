@@ -64,6 +64,11 @@
     padding: 250px 150px 50px 150px;
 }
 
+a {
+    color: #d9fffb;
+    text-decoration: none;
+}
+
 #aboutus img {
     padding: 30px;
     width: 100vw;
