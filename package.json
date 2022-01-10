@@ -5,13 +5,14 @@
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node ./app.js"
+        "start": "node app.js"
     },
     "keywords": [
         "anirudh",
         "gautam"
     ],
     "author": "",
+
     "license": "ISC",
     "dependencies": {
         "body-parser": "^1.19.1",
