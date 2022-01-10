@@ -121,6 +121,10 @@
     padding: 1px;
 }
 
+a {
+    color: #d9fffb;
+}
+
 @media only screen and (max-width:1025px) {
     .container {
         /* background-color: darkblue; */
