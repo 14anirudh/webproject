@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#footer {
+    height: 30px;
+    color: white;
+    background-color: rgb(6, 43, 70);
+    text-align: center;
+}
+
+#logo {
+    color: #d9fffb;
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+#logo img {
+    height: 50px;
+    filter: invert(1);
+}
+
+#navbar {
+    background-color: black;
+    padding: 15px;
+    border-bottom: 1px groove #d9fffb;
+    ;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 12px;
+    font-size: 20px;
+    color: #d9fffb;
+}
+
+#navbar li a:hover {
+    background-color: ghostwhite;
+    color: rgb(6, 43, 70);
+    border-radius: 10px;
+}
+
+#about {
+    list-style: disc;
+}
+
+#ab {
+    /* display: flex; */
+    /* text-align: center; */
+    padding: 250px 150px 50px 150px;
+}
+
+#aboutus img {
+    padding: 30px;
+    width: 100vw;
+    height: 98vh;
+}
+
+#aboutus::before {
+    content: "";
+    background: url("../static/backabout.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    /* opacity: 0.9; */
+    /* opacity: 0.9; */
+}
+
+.main {
+    text-align: center;
+    font-size: 6rem;
+    padding: 40px;
+    color: beige;
+}
+
+#ab p {
+    word-spacing: 5px;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 1.7em;
+}
+
+#about {
+    word-spacing: 8px;
+    padding: 12px 0px;
+    margin: 0px 30px;
+    font-weight: 400;
+    line-height: 1.7em;
+    letter-spacing: .01em;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.us {
+    height: 40vh;
+    width: 98.7vw;
+    background-color: rgb(6, 43, 70);
+}
+
+.btn {
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button {
+    margin: 5px;
+    padding: 2px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #d9fffb;
+}
+
+.btn button:hover {
+    /* border-bottom: 2px dotted white; */
+    color: rgb(95, 139, 170)
+}
+
+.us p {
+    font-size: 3rem;
+    color: #d9fffb;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+@media only screen and (max-width:1025px) {
+    h1 {
+        font-size: 30px;
+    }
+    #ab p {
+        word-spacing: 4px;
+        padding: 5px 0px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.2em;
+    }
+    #about {
+        word-spacing: 4px;
+        padding: 5px 0px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.2em;
+    }
+}

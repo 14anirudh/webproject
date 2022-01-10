@@ -1,0 +1,181 @@
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0px;
+        /* font-family: 'Playfair Display', serif; */
+        ;
+    }
+    
+    h1 {
+        text-align: center;
+        margin: 10px;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    #navbar {
+        background-color: black;
+        padding: 15px;
+        position: sticky;
+        top: 0px;
+        /* border-bottom: 1px groove #d9fffb; */
+    }
+    
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    
+    #navbar li {
+        list-style: none;
+    }
+    
+    #navbar li a {
+        text-decoration: none;
+        padding: 12px;
+        font-size: 20px;
+        color: #d9fffb;
+    }
+    
+    #navbar li a:hover {
+        background-color: ghostwhite;
+        color: rgb(6, 43, 70);
+        border-radius: 10px;
+    }
+    
+    #logo {
+        color: #d9fffb;
+        display: flex;
+        align-items: center;
+        margin: 0px 20px;
+    }
+    
+    #logo img {
+        height: 55px;
+        filter: invert(1);
+    }
+    
+    #introsection {
+        height: 665px;
+        color: #d9fffb;
+        display: flex;
+        font-weight: bolder;
+        justify-content: center;
+        /* align-items: center; */
+        font-size: 7rem;
+        font-family: 'Playfair Display', serif;
+        background: url("/static/background.jpg") center/cover no-repeat;
+    }
+    
+    #missionsection {
+        height: 300px;
+        /* background-color: black; */
+        color: rgb(6, 43, 70);
+        width: 67%;
+        margin: auto;
+    }
+    
+    .card {
+        /* border: 2px solid rgb(6, 43, 70); */
+        /* border-radius: 5px; */
+        width: 29%;
+        margin: 10px 28px;
+        padding: 16px 28px;
+        height: 250px;
+        display: inline-block;
+    }
+    
+    .card-box {
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    
+    .card-img {
+        height: 130px;
+        padding: 15px/*top*/
+        20px/*left*/
+        0px 0px;
+    }
+    
+    .card-img img {
+        height: inherit;
+    }
+    
+    .card h3 {
+        text-align: center;
+    }
+    
+    #sponsorsection {
+        height: 200px;
+        background-color: #d9fffb;
+        color: white;
+    }
+    
+    #sponsorsection h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    #footer {
+        height: 30px;
+        color: white;
+        background-color: rgb(6, 43, 70);
+        text-align: center;
+        width: 98.7vw;
+    }
+    
+    .us {
+        height: 40vh;
+        width: 98.7vw;
+        background-color: rgb(6, 43, 70);
+    }
+    
+    .btn {
+        padding: 0px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn button {
+        margin: 5px;
+        padding: 2px;
+        background: transparent;
+        border: none;
+        font-size: 20px;
+        color: #d9fffb;
+    }
+    
+    .btn button:hover {
+        color: rgb(95, 139, 170);
+    }
+    
+    .us p {
+        font-size: 3rem;
+        color: #d9fffb;
+        text-align: center;
+        padding: 40px 0px;
+    }
+    
+    @media only screen and (max-width:1025px) {
+        #navbar {
+            padding: 6.5px;
+        }
+        h1 {
+            font-size: 20px;
+        }
+        #introsection {
+            height: 600px;
+            font-size: 6rem;
+        }
+        .card {
+            width: auto;
+            margin: 10px 30px;
+            padding: 16px 10px;
+            height: auto;
+            /* display: inline-block; */
+        }
+    }
