@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-
+const port = Process.env.PORT || 800;
 const app = express();
 const mongoose = require('mongoose');
 // const bodyparser = require("body-parser")
@@ -10,7 +10,7 @@ async function main() {
     await mongoose.connect('mongodb://localhost/Dance');
 }
 
-const port = Process.env.PORT || 800;
+
 //defining mongoose schema
 const DanceSchema = new mongoose.Schema({
     name: String,
