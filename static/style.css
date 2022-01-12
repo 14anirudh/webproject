@@ -36,7 +36,7 @@
         text-decoration: none;
         padding: 12px;
         font-size: 20px;
-        color: #d9fffb;
+        color: #7dffed;
     }
     
     #navbar li a:hover {
@@ -124,7 +124,7 @@
         color: white;
         background-color: rgb(6, 43, 70);
         text-align: center;
-        width: 98.7vw;
+        width: 100vw;
     }
     
     .us {
@@ -177,5 +177,14 @@
             padding: 16px 10px;
             height: auto;
             /* display: inline-block; */
+        }
+        .big {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+        }
+        body {
+            width: 100vw;
         }
     }

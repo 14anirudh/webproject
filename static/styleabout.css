@@ -9,6 +9,7 @@
     color: white;
     background-color: rgb(6, 43, 70);
     text-align: center;
+    width: 100vw;
 }
 
 #logo {
@@ -69,6 +70,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(95, 139, 170);
+}
+
 #aboutus img {
     padding: 30px;
     width: 100vw;
@@ -80,7 +85,7 @@ a {
     background: url("../static/backabout.jpg") no-repeat center center/cover;
     position: absolute;
     height: 500px;
-    width: 100%;
+    width: 100vw;
     z-index: -1;
     top: 0px;
     left: 0px;
@@ -120,7 +125,7 @@ h1 {
 
 .us {
     height: 40vh;
-    width: 98.7vw;
+    width: 100vw;
     background-color: rgb(6, 43, 70);
 }
 
@@ -169,5 +174,8 @@ h1 {
         font-size: 13px;
         font-weight: 400;
         line-height: 1.2em;
+    }
+    body {
+        width: 100vw;
     }
 }
